@@ -21,4 +21,4 @@ const allItems = images
   </li>`
   )
   .join("");
-listEl.insertAdjacentHTML("beforeend", allItems);
+listEl.insertAdjacentHTML("afterbegin", allItems);
